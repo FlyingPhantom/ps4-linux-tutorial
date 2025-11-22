@@ -29,16 +29,14 @@ This page contains content on how to compile your own kernel.
   https://github.com/Frogging-Family/linux-tkg.git
  
   ```
-- Next cd into the directory by using the following command.
+- Download the modified PKGBUILD file and place it into the directory.
 
-  ```
-  cd linux-tkg
+- Download using this link [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/PKGBUILD).
 
-  ```
 
 ## Step 2 - Configuring the linux-tkg project
 
-- Go into .config and make a directory called *frogminer*
+- Go into $HOME/.config and make a directory called *frogminer*
 
 - After that go back to *linux-tkg* and copy the "customization.cfg" into the *.config/frogminer* directory but rename the file to "linux-tkg.cfg".
 
@@ -58,13 +56,13 @@ This page contains content on how to compile your own kernel.
 <img src="/screenshots/tkg1.png" width="75%">
 
 
-## Step 3 - Fixing the pkgbuild
+> **NOTE:Fixing the pkgbuild**
 
-- The linux-tkg project does not allow the option for kernel output to be compiled as bzImage, i have made a [issue](https://github.com/Frogging-Family/linux-tkg/issues/1162) but it hasn't been pushed or decided if it will be pushed. So for now you will need to use a modified PKGBUILD file.
+>- The linux-tkg project does not allow the option for kernel output to be compiled as bzImage, i have made a [issue](https://github.com/Frogging-Family/linux-tkg/issues/1162) but it hasn't been pushed or decided if it will be pushed. So for now you will need to use a modified PKGBUILD file.
 
-- **NOTE: This is only for arch because its the distro i use i dont know for other distros but you will have to modify ./install.sh script if you dont use arch**.
+>- This is only for arch because its the distro i use i dont know for other distros but you will have to modify ./install.sh script if you dont use arch.
 
-- You can download the follow modded PKGBUILD file from this link [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/PKGBUILD).
+>- You can download the follow modded PKGBUILD file from this link [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/PKGBU>>ILD).
 
 
 ## Step 4 - Recommended settings.

@@ -1,5 +1,5 @@
 # Key information
-In this *very professional* tutorial, we'll go over how to install Linux on your PS4.
+In this tutorial, we'll go over how to install Linux on your PS4.
 
 This guide was originally made because the PS4Linux.com's guide was old, hard to understand, incomplete and with tons of ads. It was updated recently, but the guide section hasn't really changed.
 
