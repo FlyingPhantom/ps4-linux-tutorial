@@ -66,7 +66,7 @@ export default defineConfig({
             items: [
               { text: 'Installation Methods', link: '/installation' },
               { text: 'Internal Installation', link: '/internal-installation' },
-              { text:  External Installation', link: '/external-installation-alternative' },
+              { text: 'External Installation', link: '/external-installation-alternative' },
             ],
           },
           { text: 'Ending', link: '/ending' },
