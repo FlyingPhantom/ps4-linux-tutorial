@@ -1,3 +1,4 @@
+<DOCUMENT filename="config.js">
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -27,7 +28,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'PS4 Linux Tutorial' }],
     ['meta', { name: 'twitter:description', content: 'Step-by-step guide for running Linux on PS4.' }],
-    ['meta', { name: 'twitter:image', content: 'https://flyingphatnom.github.io/ps4-linux-tutorial/preview.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://flyingphantom.github.io/ps4-linux-tutorial/preview.png' }],
   ],
 
   themeConfig: {
@@ -88,19 +89,24 @@ export default defineConfig({
           { text: 'Common issues', link: '/issues' },
           { text: 'Baikal issues', link: '/baikal' },
         ]
-      }
-      ,
+      },
       {
         text: '☠️ Legacy Content',
         collapsed: true,
         items: [
           { text: 'Legacy and preservation', link: '/legacy' },
         ]
+      },
+      {
+        text: '🔧 Compile your own kernel',
+        collapsed: true,
+        items: [
+          { text: 'Compile your own kernel', link: '/kernel' }
+        ]
       }
     ],
 
     // Custom added stuff
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/FlyingPhantom/ps4-linux-tutorial/' }
     ],
@@ -123,3 +129,4 @@ export default defineConfig({
     },
   }
 })
+</DOCUMENT>
