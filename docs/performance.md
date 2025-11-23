@@ -1,6 +1,6 @@
 # How to improve your performance on the Playstation 4
 
-## This page will only cover the Playstation Fat and Slim because the Pro has basically no issues in terms of running Window managers or Desktop environments.
+## This page will only cover the Playstation Fat and Slim because the Pro has basically no issues in terms of running Window managers or Desktop environments. Also including games.
 >- **NOTE: All of the changes to the Playstation 4 Fat or Slim can be applied to the Pro if you want to squeeze in more performance**
 
 
@@ -22,8 +22,8 @@
 
 - For proton we can use either [Proton-Sarek](https://github.com/pythonlover02/Proton-Sarek) or [Proton-CachyOS](https://github.com/CachyOS/proton-cachyos).
 
->- [!TIP]
->- Instead of just installing these compile them manually using custom -march and -mtune flags which should be *-march=btver2* and *-mtune=btver2*
+> [!TIP]
+> Instead of just installing these compile them manually using custom -march and -mtune flags which should be *-march=btver2* and *-mtune=btver2*
 
 - For Proton-Sarek you can use `PROTON_SAREK_PROFILE=agg` profile to gain performance in some games.
 
@@ -31,9 +31,9 @@
 
 ## What do these 2 actually do?
 
-	- The *agg* stands for "aggressive" and disables graphically intensive features to gain performance. More on that at [Proton-Sarek profiles section](https://github.com/pythonlover02/Proton-Sarek?tab=readme-ov-file#Sarek-Profile).
+- The *agg* stands for "aggressive" and disables graphically intensive features to gain performance. More on that at [Proton-Sarek profiles section](https://github.com/pythonlover02/Proton-Sarek?tab=readme-ov-file#Sarek-Profile).
 
-	- NTSYNC is a linux driver introduced in 6.14 that implements some of the NT Kernel(The kernel that windows uses still to this day) API Calls to handel such events better which can often result in better performance.
+- NTSYNC is a linux driver introduced in 6.14 that implements some of the NT Kernel(The kernel that windows uses still to this day) API Calls to handel such events better which can often result in better performance.
 
 
 # 3 - DE/WM Optimizations
