@@ -127,7 +127,7 @@ No, seriously, we can do such a thing. To do that, we must use Swap and ZRAM.
 
 ::: details Enabling Swap
 > [!CAUTION]
-> It's ABSOLUTELY NOT recommended to use the internal HDD as swap, you'd just add fuel to the dumpsterfire of slowness that it already is. Disable it and move on.
+> It's **ABSOLUTELY NOT** recommended to use the internal HDD as swap **ONLY** use this if your internal HDD has been replaced with a faster SSD. Disable it and move on otherwise.
 
 Swap is storage that you are taking from your drive and allocating as "extra RAM": it works by moving unused software over there if extra main memory needs to be reserved for another program or game. This means we can improve the memory situation a little bit.
 

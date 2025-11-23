@@ -31,9 +31,7 @@ The second gen Southbridge, and the one with the most support. Gets kernel updat
 It can be found on late Fat models, but also on Slims and Pros.
 
 ### Baikal
-The third and final Southbridge, released very late into the console's lifespan, and the one with the least support. It doesn't have support for internal HDD installation, and is known to have issues, especially on PS4 Pros, but you may be able to get a working system.
-
-This is because there are fewer people with Baikal PS4s, so there aren't many developers and testers.
+The third and final Southbridge, released very late into the console's lifespan, and the one with the most broken support. It does not have supprot for internal HDD installation, and is known to have issues with wifi and bluetooth especially on PS4 Pros, but you can get a working system now days as most of the drivers for Baikal have been added to the kernel source..
 
 > [!TIP]
 > In a nutshell, the list from most to least supported is:
