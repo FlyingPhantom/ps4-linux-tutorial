@@ -33,6 +33,17 @@ This page contains content on how to compile your own kernel.
 
 - Download using this link [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/PKGBUILD).
 
+- You will also need to install couple packages needed to compile you can copy the provided command:
+
+  ```
+
+  yay -S --needed base-devel git ccache schedtool clang lld llvm \
+  bison xmlto docbook-xsl inetutils bc libelf pahole patchutils flex \
+  python-sphinx python-sphinx_rtd_theme graphviz imagemagick cpio \
+  perl tar xz wget --noconfirm
+
+  ```
+
 
 ## Step 2 - Configuring the linux-tkg project
 
@@ -44,7 +55,7 @@ This page contains content on how to compile your own kernel.
 
 > **NOTE: this kernel is only aoelia-belize go to his repo to find kernels for baikal.**
 
-- This will clone the 6.15.4 crashniels kernel wen you select it.
+- This will clone the 6.15.4 kernel wen you select it.
 
 - Example with images will be provided here.
 
