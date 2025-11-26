@@ -28,11 +28,10 @@ export default defineConfig({
         text: 'Issues',
         items: [
           { text: 'General issues', link: '/issues' },
-          { text: 'Baikal specific issues', link: '/baikal' },
         ]
       },
       {
-        text: 'More goodies',
+        text: 'More stuff',
         items: [
           { text: 'Post-install', link: '/postinstall' },
           { text: 'Distro DIY', link: '/distrodiy' },
@@ -49,6 +48,7 @@ export default defineConfig({
           { text: 'Revisions and Southbridges', link: '/revisions' },
           { text: 'Setup', link: '/setup' },
           { text: 'Files', link: '/files' },
+	  { text: 'Baikal', link: '/baikal'},
           {
             text: '💿 Choose your Install',
             collapsed: true,
@@ -101,7 +101,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '🔧 Mesa',
+        text: '💻 Mesa',
         collapsed: true,
         items: [
           { text: 'Mesa drivers & tweaks', link: '/mesa' }
