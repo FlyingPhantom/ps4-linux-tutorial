@@ -1,6 +1,6 @@
 # Baikal issues
 
-Theres lots of problems to baikal systems while lack of being widespread to the developers is the issue as well its that entirely. Regardless of that this page will go over the issues present in the baikal system when trying to run linux.
+Theres lots of problems to baikal systems while lack of being widespread to the developers is the issue as well its not that entirely. Regardless of that this page will go over the issues present in the baikal system when trying to run linux.
 
 - Older kernel, baikal users are on 5.4 when the rest have moved over to 6.x kernels
 
