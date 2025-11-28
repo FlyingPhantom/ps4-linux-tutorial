@@ -112,10 +112,17 @@ export default defineConfig({
               { text: 'i3',        link: '/xorg/i3' },
               { text: 'Openbox',   link: '/xorg/openbox' },
               { text: 'bspwm',     link: '/xorg/bspwm' },
-              { text: 'dwm',        link: '/xorg/dwm' },
+              { text: 'dwm',       link: '/xorg/dwm' },
               { text: 'Awesome',   link: '/xorg/awesome' }
             ]
           }
+        ]
+      },
+      {
+        text: '🎮 Emulation',           // ← perfect emoji + clean name
+        collapsed: true,
+        items: [
+          { text: 'Emulation on PS4 Linux', link: '/miscellaneous/emulation' }
         ]
       },
       {
