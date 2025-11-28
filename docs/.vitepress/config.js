@@ -24,19 +24,11 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/information' },
-      {
-        text: 'Issues',
-        items: [
-          { text: 'General issues', link: '/issues' },
-        ]
-      },
-      {
-        text: 'More stuff',
-        items: [
-          { text: 'Post-install', link: '/postinstallation/postinstall' },
-          { text: 'Distro DIY', link: '/postinstallation/distro' },
-        ]
-      },
+      { text: 'Issues', items: [{ text: 'General issues', link: '/issues' }] },
+      { text: 'More stuff', items: [
+        { text: 'Post-install', link: '/postinstallation/postinstall' },
+        { text: 'Distro DIY', link: '/postinstallation/distro' },
+      ]},
     ],
 
     sidebar: [
@@ -85,51 +77,40 @@ export default defineConfig({
         ]
       },
       {
-        text: '🔧 Compile your own kernel',
+        text: '🛠️ Miscellaneous',
         collapsed: true,
         items: [
-          { text: 'Compile your own kernel', link: '/miscellaneous/kernel' }
+          { text: '🚀 Performance tweaks & optimization', link: '/miscellaneous/performance' },
+          { text: '🔧 Compile your own kernel',           link: '/miscellaneous/kernel' },
+          { text: '🎮 Emulation on PS4 Linux',            link: '/miscellaneous/emulation' },
+          { text: '⚡ PS4 Linux Benchmarks',              link: '/miscellaneous/benchmark' },
+          { text: '🖥️ Mesa drivers & tweaks',             link: '/miscellaneous/mesa' }
         ]
       },
       {
-        text: '🚀 Performance',
+        text: '🪟 Desktop Environments',
         collapsed: true,
         items: [
-          { text: 'General tweaks & optimization', link: '/miscellaneous/performance' },
           {
             text: '🌊 Wayland Compositors',
             collapsed: true,
             items: [
               { text: 'Hyprland', link: '/wayland/hyprland' },
-              { text: 'Sway',      link: '/wayland/sway' },
-              { text: 'Niri',      link: '/wayland/niri' }
+              { text: 'Sway',     link: '/wayland/sway' },
+              { text: 'Niri',     link: '/wayland/niri' }
             ]
           },
           {
             text: '✖ Xorg Window Managers',
             collapsed: true,
             items: [
-              { text: 'i3',        link: '/xorg/i3' },
-              { text: 'Openbox',   link: '/xorg/openbox' },
-              { text: 'bspwm',     link: '/xorg/bspwm' },
-              { text: 'dwm',       link: '/xorg/dwm' },
-              { text: 'Awesome',   link: '/xorg/awesome' }
+              { text: 'i3',      link: '/xorg/i3' },
+              { text: 'Openbox', link: '/xorg/openbox' },
+              { text: 'bspwm',   link: '/xorg/bspwm' },
+              { text: 'dwm',     link: '/xorg/dwm' },
+              { text: 'Awesome', link: '/xorg/awesome' }
             ]
           }
-        ]
-      },
-      {
-        text: '🎮 Emulation',           // ← perfect emoji + clean name
-        collapsed: true,
-        items: [
-          { text: 'Emulation on PS4 Linux', link: '/miscellaneous/emulation' }
-        ]
-      },
-      {
-        text: '🖥️ Mesa & Graphics',
-        collapsed: true,
-        items: [
-          { text: 'Mesa drivers & tweaks', link: '/miscellaneous/mesa' }
         ]
       }
     ],
