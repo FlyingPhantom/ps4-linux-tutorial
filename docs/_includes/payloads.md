@@ -15,12 +15,6 @@ Do NOT use Pro payloads on non-Pro consoles.
 > 
 > Afterwards, 2GB is recommended.
 
-> [!TIP]
-> I cannot believe I have to say this, but remember that the amount of VRAM you allocate is taken from your system memory!
-> 
-> For example, for a 2GB of VRAM payload, you'd have 8-2 = 6GB of remaining system RAM!
-> You aren't creating memory out of thin air!
-
 ### Local payloads
 It's also possible to load these payloads locally.
 

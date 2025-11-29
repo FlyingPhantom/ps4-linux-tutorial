@@ -1,13 +1,13 @@
 # Post installation things
-Once you've installed Linux and are on the desktop, before rushing to do things, you may want to do a couple of additional steps.
+Once you've installed Linux and are on the desktop, you may want to first do a couple of additional steps.
 
-To change some config files (don't worry, it won't hurt), I'll recommend `nano` because it just works. To save a file, use `CTRL+S` and to exit `CTRL+X`.
+> [!TIP]
+> It's recommended to use `nano` to edit config files.
 
 ## Update your system <Badge type="danger" text="caution" />
-Updating your system can be a bit of a pain in the ass, as some of the packages can't be updated because they contain modifications to make them work on the PS4.
 
 > [!CAUTION]
-> This means that if we update the system without excluding those packages your system will break. So you need to do some work to get up-to-date drivers.
+> Updating your system can be tricky, as some of the packages can't be updated because they contain modifications to make them work on the PS4. This means that if we update the system without excluding those packages your system will break, so you'll need to do some work to get up-to-date drivers.
 
 > [!IMPORTANT]
 > Driver repos are being made for Arch based distros. More on the tux4orbis Discord.
@@ -17,7 +17,7 @@ Updating your system can be a bit of a pain in the ass, as some of the packages 
 ::: details Arch based distros (with driver updates)
 > [!NOTE]
 > You should try to use the AUR package instead, as that is more up-to-date.
-> You can download it by doing `yay -Syu video-drivers-ps4`. It may not work, we are working on it.
+> You can download it by doing `yay -Syu video-drivers-ps4`. It may not work - we are working on it.
 
 Now, to update the drivers, you need to open the pacman config:
 ```bash
@@ -114,13 +114,13 @@ If needed, change your language in yout DE (KDE, Gnome...)
 Reboot to apply these changes.
 
 ## Change username and password
-Honestly? Create a new user. It's faster. Or just keep it.
-
 You can however change the password, by doing:
 ```bash
 sudo passwd
 ```
 And setting a new password.
+
+## Swap
 
 ::: details Enabling Swap
 > [!CAUTION]
@@ -208,14 +208,10 @@ Then reboot the system. It should be gone.
 Thanks again to Qba for this [showcase](https://youtu.be/f_kXks8z9dc).
 :::
 
-And that's it. You now have a bit of extra memory to work with. So you can have like 2GB of VRAM, and the 6GB of remaining memory allocated as RAM become more like 6.5 or 7. On top of that, add that Linux is more memory efficient than Windows, and it's like having 8GB of RAM! Pretty sweet huh?
-
-Oh, and don't worry if you see that your installation is using a lot of memory. It's normal and is meant to happen in order to improve performance. Check this [link](https://linuxatemyram.com) to learn more.
+Don't worry if you see that your installation is using a lot of memory. It's normal and is meant to happen in order to improve performance. Check this [link](https://linuxatemyram.com) to learn more.
 
 ## Get more CPU performance
-You may have realized that the PS4's CPU is pretty lacking and is most likely it's biggest disadvantage. But apart from a really optimized distro, what else can you do?
-
-In computing you are always going to gain something and loose something else. Either your time, money, or in this case...
+The PS4’s CPU is limited, and beyond using an optimized distro, gains are small unless you’re willing to take some risks.
 
 ::: details Disengage safety protocols, and run program
 Yes, you can disable some security patches for attacks like Meltdown and Spectre, to gain some CPU performance. It does work and should have a noticeable improvement.
@@ -230,9 +226,8 @@ mitigations=off
 And there you go! You can change it back anytime of course.
 :::
 
-In the past there were overclocked kernels, but alas they don't make them anymore. This is because overclocked kernels... didn't actually overclock the CPU.
+Overclocked kernels used to exist, but they’re no longer maintained - they never actually overclocked the CPU. Avoid downloading old kernels for this purpose, as they won’t work anymore either.
 
-Do not go and download an older kernel to try as they don't work anymore either!
 ## Install more applications
 To play games, these are the recommended softwares:
 - Steam

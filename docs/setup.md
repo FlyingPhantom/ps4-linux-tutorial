@@ -78,7 +78,7 @@ However, as some issues may arise on certain consoles, you should still go and t
 	- Ethernet may not work on PS4 Pro Baikal
 
 ## PC
-You'll need a way to connect to your PS4 to transfer files. A PC is recommended. You will also need an internet connection.
+A way to connect to your PS4 to transfer files is needed. A PC is recommended. You will also need an internet connection.
 
 You'll be accessing your PS4's filesystem from FTP. You can also transfer files with a USB drive if you feel so inclined.
 
@@ -99,11 +99,8 @@ In order to do that, open up your FTP file manager of choice.
 - Probably Filezilla
 
 ### Necessary files
-In the next step, you also will need to download the following:
+In the next step, you'll need to download the following:
 - bzImage (the kernel)
 - initramfs.cpio.gz (the rescueshell/terminal before the main distro)
 - A distro of your choice, already preinstalled and modified to work on the PS4
 	- You can also make your own. More on that later.
-
-## To the files section
-You can go now go to the files section, where we'll cover how to download the required data.

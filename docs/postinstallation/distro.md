@@ -9,8 +9,8 @@ If you don't trust people on the internet (and rightfully so), you may want to p
 > 
 > Some things may not work properly. If you encounter issues, chat on the [Discords](https://discord.com/invite/QtcPmzHVVm).
 
-## Preamble - why is this necessary?
-The community, as we've established before, is divided: there's the french (that nobody understands), there's people who want to work for real, but in the end none of them work together. So, even after almost 10 years, we still haven't seen these patches merged onto the original projects. Bruh.
+## Why is this necessary
+The PS4 Linux community is fragmented: some contributors focus on experimental work, others aim for real development, and few collaborate across projects. As a result, many patches haven’t been merged into the mainline projects, even after nearly ten years.
 
 ## Requirements
 In order to port a distro on the PS4, you will need the following:
@@ -26,26 +26,24 @@ To get the drivers, there's a couple of ways:
 SigLevel = Optional
 Server = https://centi07.github.io/repo/
 ```
-Otherwise, it's possible to get them from the AUR. You just need to download the video-drivers-ps4 package, which will fail installing so you can go to the working directory of yay and install the packages manually by doing `sudo pacman -U *`. Actually nevermind I couldn't get it to work so ask in the tux4orbis discord...
+Otherwise, the drivers are available from the AUR via the video-drivers-ps4 package. However, installation may fail. If that happens, check the Tux4Orbis Discord for help.
 
 - The `mesa-git`, `libdrm`, and `xf86-video-amdgpu` packages compiled with patches for the PS4, or compile them yourself
-	- It is necessary to compile mesa in 32 bit too, for some games I guess?
-- You can find patches [here](https://github.com/DionKill/ps4-linux-patches) (forked from FalsePhilosopher) to compile yourself
-	- I haven't figured out how to compile these just yet... Better off using the ones from the AUR tbh
-- You will still need to use a kernel of choice (download one or git clone the ones listed before) and use the initramfs (or make your own? if you manage please contact us on the tux4orbis discord)
+	- It is necessary to compile mesa in 32 bit too, for some games
+- You can find patches [here](https://github.com/FlyingPhantom/ps4-linux-patches) (forked from FalsePhilosopher) to compile yourself
+	- I haven't figured out how to compile these just yet, you're likely better off using the ones from the AUR
+- You will still need to use a kernel of choice (download one or git clone the ones listed before) and use the initramfs (or make your own - if you manage to please make an issue on github)
 
 Otherwise, on some Discords, you can find (possibly illegal?) personal forks for these drivers. Most of these are in french, so watch out.
 ## Porting
-> [!TIP]
-> From here on out is uncharted territory. Good luck.
-
-Jokes aside, you would need to do something like so:
+You would need to do something like so:
 - Install your distro and possibly configure it to your liking
-	- If you want to make it public... Please don't. Leave it with American English and move on. Don't put 90s renders of anime girls, we don't want them...
 
 Uninstall the `mesa-git`, `libdrm`, and `xf86-video-amdgpu` packages, and install the ones that are required by the PS4.
 To uninstall the mesa packages, use your package manager instructions. You will probably need to remove all the dependencies as well.
-- DO NOT USE MESA 22 FFS, IF YOU DO YOU ARE LIKE ACTUALLY A MORON
+
+> [!CAUTION]
+> Don't use MESA 22.
 
 After that you need to add these packages to the ignore section so they can't be updated. On Arch based distros, change your pacman config, and add these packages to the ignore section:
 ```bash
@@ -66,4 +64,4 @@ sudo tar -cvf ps4linux.tar.xz --exclude=/ps4linux.tar.xz --exclude=/var/cache --
 Then move the file over to the PS4.
 
 ## Ending
-I know it's a rough tutorial, but I'm lacking time and experience on Linux to be able to write a better one. PRs are welcome.
+For any changes, PRs are welcome.

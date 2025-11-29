@@ -1,8 +1,8 @@
 # Finishing up
-Done! Enjoy Linux on your PS4! Please share this guide if it was helpful! For any questions on this guide, make an issue, with general Linux issues use the links provided at the start of the guide to get to the PS4Linux Forums.
+Enjoy Linux on your PS4 - please share this guide if it was helpful! For any questions on this guide, make an issue, with general Linux issues use the links provided at the start of the guide to get to the PS4Linux Forums.
 
 > [!TIP]
-> I highly recommend continuing to the ["Post Installation" setup](/postinstallation/postinstall), to change language!
+> I highly recommend continuing to the ["Post Installation" setup](/postinstallation/postinstall) to begin configuring your system
 
 > [!NOTE]
 > For any problems, [check the issues page](issues)!
@@ -49,5 +49,3 @@ Additionally, I also want to mention:
 	- Also for their kernel and tutorials.
 
 Thank you all so much for making this possible.
-## Post install setup is next!
-Go and modify your distro in the next step. You will find a lot of useful stuff!

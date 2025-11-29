@@ -1,7 +1,7 @@
 # Acquiring the software
 
 > [!WARNING]
-> I'm sorry if some of the following links are sketchy, but the community is a divided mess unfortunately. Refer to the [Other Issues](issues.md#other-issues) section for a rant.
+> Some of the following links are sketchy, but unfortunately the community is a divided mess. Refer to the [Other Issues](issues.md#other-issues) section for more info.
 ## Kernels
 This section covers recommended kernels. There are both vanilla kernels and performance kernels. Ordered by newest to oldest, the top ones are the recommended ones.
 
@@ -56,7 +56,7 @@ There's another in-dev initramfs, if you want to check it out it's [here](https:
 
 Also, you may want to read [this post](https://ps4linux.com/forums/d/93-tutorial-for-building-a-custom-initramfs-research-development) on the PS4 Linux forums, I found it and thought was really interesting.
 
-## Distros (that you ACTUALLY wanna use)
+## Distros
 There's many distros, most however, are very outdated, especially the ones on the PS4Linux's website list. These distros are newer, supported by updates and recommended. CachyOS was used for this guide, but you can follow the same method of installation for all the other ones reported here.
 
 | Distro                                                                                           | Base    | Port credits                                                              | Info                                                                                |
@@ -73,6 +73,6 @@ There's many distros, most however, are very outdated, especially the ones on th
 | [JaguarLinux](https://github.com/Jaguarlinux)                                                    | None    | TigerClips1                                                               | A distro made from scratch for the PS4! Still in development, but worth mentioning. |
 
 >[!TIP]
->Want to add more distros? Make an issue and your wish shall be granted.
+>Want to add more distros? Make an issue on github.
 >
 >Want to make your own? [Check this out!](/postinstallation/distro)

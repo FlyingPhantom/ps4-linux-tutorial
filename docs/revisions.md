@@ -1,5 +1,4 @@
-Overview of revisions and southbridges
-We need to clear any confusion for people that are new to this stuff. The PS4 is a relatively quirky console and it can get pretty confusing with the myriad of models there are.
+# Overview of revisions and southbridges
 
 > [!TIP]
 > Take notes and remember all you see in this page, as it will interest you during your installation.
