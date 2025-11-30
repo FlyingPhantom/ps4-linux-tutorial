@@ -63,6 +63,15 @@ export default defineConfig({
         ]
       },
       {
+        text: '🔒 Persistent boot',
+        collapsed: true,
+        items: [
+          { text: 'Internal permanent install', link: '/persistent/internal' },
+          { text: 'External permanent install', link: '/persistent/external' },
+          { text: 'Router permanent install',    link: '/persistent/router' }
+        ]
+      },
+      {
         text: '💔 Common issues',
         collapsed: false,
         items: [
