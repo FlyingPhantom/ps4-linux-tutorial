@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "PS4 Linux Tutorial, Based on Dionkill's shitty tutorial but better."
+  name: "PS4 Linux Tutorial, Based on Dionkill's tutorial but covers wider range of topics."
   text: "A simple guide to Linux on PS4"
   tagline: "by FlyingPhantom"
   image:
@@ -12,12 +12,22 @@ hero:
     - theme: brand
       text: 🏁 Let's start!
       link: /information
+      type: row
+
     - theme: alt
       text: 📹 YT Guide (Modded Warfare)
       link: https://www.youtube.com/watch?v=KW_lRyXQcb8
+      type: low   
+
     - theme: alt
       text: 📖 Source on GitHub
       link: https://github.com/FlyingPhantom/ps4-linux-tutorial
+      type: low
+    
+    - theme: alt
+      text: 🔗 Dionkill's guide (install only)
+      link: https://dionkill.github.io/ps4-linux-tutorial/
+      type: low
 
 features:
   - icon: 🧹
