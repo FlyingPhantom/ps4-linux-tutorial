@@ -3,12 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "PS4 Linux Tutorial",
   description: "A simple and modern guide on how to install Linux on PS4 systems.",
-
   base: "/ps4-linux-tutorial/",
-
-
- main
-
+ 
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/ps4-linux-tutorial/favicon.png', sizes: '32x32' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
