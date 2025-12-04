@@ -2,6 +2,8 @@
 
 ## Credit: https://neburone10.github.io/ Rubén Ríos.
 
+> [!CAUTION]
+> Baikal system is not recommended because of incompatibilities with the internal install
 
 ## Requirements:
 
@@ -15,11 +17,54 @@
 
 - Thermal tape to insulate the wires and chip to avoid shorts
 
-- LuckFox Pico (bigger model can be used allowing integration in the space found)
+- LuckFox Pico (bigger model can be used allowing integration in the space found, but only when not using the specific fork of the original project)
+
+- Usb stick
 
 - (Optional)MicroSD card of 8GB or higher
 
 - Video tutorial [here](https://www.youtube.com/watch?v=OKjHICa40To&t=4s&pp=ygUbbW9kZGVkIHdhcmVmYXJlIHBzNCBtb2RjaGlw) by MODDED_WAREFARE. His tutorial is a bit different though.
+
+# Step 1 - Software side
+
+- For this you will need this project [here](https://github.com/harsha-0110/PPPwn-Luckfox/). The offical/original will not be used because its missing key features that make this mod viable. Those features being SPRAY_NUM and CORRUPT_NUM.
+
+- Then you will need to download neccesery files.
+
+> [!NOTE]
+> It is recommended that you use windows because it is easier but if you can do this on linux make a pr becuase i am unaware of neccesery software being available for linux.
+
+- For information on how to flash a luckfox pico you will need to go the [luckfox wifi](https://wiki.luckfox.com/intro). And select the page acordingly to your luckfox model, also make sure to always click on "System Image Flashing" section on their wiki.
+
+<img src="/luckfox-pico-plus-mini.png" width="75%">
+
+- Image above is for luckfox pico plus mini
+
+<img src="/otherluckfox.png" width="75%">
+
+- Image above is for luckfox pico pro max and ultra W
+
+- Next make sure you download the RK DriverAssitant and SocToolKit flashing tool.
+
+- Install the RK Driver and Extract the SocToolKit.
+
+- After that Hold BOOT button on Luckfox → plug USB-C into PC. Device will show up as “Rockchip” in Device Manager.
+
+- Open RKDevTool / SDK Toolkit, then choose the Pico Plus Flash firmware(or the firmware for you specific luckfox) you downloaded and tick every box and wait for it to finish.
+
+- Unplug & replug Luckfox, new network adapter appears so set it to a static IP.
+
+- Open MobaXterm (or any SSH client) open a new session type in your ip that you choose for luckfox. Exmaple = IP: 172.32.1.93. The user is root and password is luckfox.
+
+- Clone or drag-drop the exploit repo also remove the "-main" from the name
+
+- cd /root/ps4-persistent-boot   # or whatever folder name, ./install.sh
+
+- Before configuring the exploit download the ps4 linux payloads from [here](https://github.com/ps4boot/ps4-linux-payloads) and place the neccesery payload to the root of your usb stick.
+
+- Now once all is finished you can safely configure your luckfox and use linux
+
+# Step 2 - Physical modification
 
 For the board configuration, refer to the repository: https://github.com/0x1iii1ii/PPPwn-Luckfox. Note that when using this board, ethernet pins 4, 5, 7, and 8 need to be connected to GND for the router to recognize it, as seen in issue https://github.com/0x1iii1ii/PPPwn-Luckfox/issues/7
 
@@ -79,7 +124,6 @@ The wires are secured in this area with hot glue so they wouldn't move and thus 
 
 <img src="/result2.jpg" width="75%">
 
-
 - In this image, you can see the connections closer to the LuckFox board and also the position where it will be located:
 
 <img src="/result3.jpg" width="75%">
@@ -91,3 +135,4 @@ The wires are secured in this area with hot glue so they wouldn't move and thus 
 - Finally, the final installation would look like this with the top metal plate already in place.
 
 <img src="/result5.jpg" width="75%">
+

@@ -88,7 +88,7 @@ This page contains content on how to compile your own kernel.
   
   ```
 
-- Now run the *makepkg -o* command and follow the instructions of the linux-tkg next.
+- Now run the *makepkg -o* or *makepkg -s* command and follow the instructions of the linux-tkg next.
 
 
 # To be continued....
