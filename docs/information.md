@@ -15,7 +15,7 @@ TLDR: yes it is reversible, and no you won't loose any data.
 ::: details What consoles are compatible?
 All consoles that can run a homebrew enabler (like GoldHEN or ps4hen) are able to run Linux.
 
-At the time of writing, the newest compatible firmware is 12.02.
+At the time of writing, the newest compatible firmware is 12.52.
 
 However, every console has a different southbridge, and Baikal in particular has many issues. You should be able to get a working installation either way.
 :::
@@ -46,12 +46,6 @@ Here are some links you'll probably find useful. You can come back to them if ne
 	3. [PS4-LINUX](https://discord.gg/88ZrcmpJ) (saya's)
 		1. Mostly in French
 
-## Warning before you proceed
-
-> [!CAUTION] 
-> Read the guide carefully to avoid any mistakes. It is recommended to read it fully at least once, as it may be a little bit overwhelming at first.
-> 
-> This guide is offered as is, with no warranty whatsoever. The writers are not responsible if you screw something up.
 
 > [!TIP]
 > If you do share this tutorial, remember to mention the source and that things are subject to change.

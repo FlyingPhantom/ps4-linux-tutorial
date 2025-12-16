@@ -52,6 +52,3 @@ mount /dev/sdb2 /newroot
 exec chroot
 ```
 You may need to do this at every reboot.
-:::
-## Finale
-Go now, conquer the finale. Also, watch the post-credit scenes.

@@ -7,10 +7,10 @@ This section covers recommended kernels. There are both vanilla kernels and perf
 
 [Credits for all of these kernels](ending#credits).
 
-::: details "Which one to pick" or "I have issues"
-Hard to say as there's a neptillion of them, but I'd recommend starting from the top (mind the Southbridge) and going down until you can find one that works.
+::: details Which one to pick?
+Hard to say as there's many of them, but I'd recommend starting from the top (mind the Southbridge) and going down until you can find one that works.
 
-If all you care about is squeezing as much performance as possible out of the PS4 (you do) try the performance kernel section first. Those have patches to make the system more responsive (in theory).
+If all you care about is squeezing as much performance as possible out of the PS4, try the performance kernel section first. Those have patches to make the system more responsive.
 
 If you still have issues, write on the forums or join the Discords. Links are at the start of the guide.
 :::

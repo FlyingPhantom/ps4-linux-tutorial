@@ -36,11 +36,6 @@
 
 - For information on how to flash a luckfox pico, visit the [luckfox wifi](https://wiki.luckfox.com/intro) and select the page corresponding to your luckfox model. Also make sure to always click on "System Image Flashing" section on their wiki.
 
-<img src="/luckfox-pico-plus-mini.png" width="75%">
-<small>The image above is for luckfox pico plus mini</small>
-<img src="/otherluckfox.png" width="75%">
-<small>The image above is for luckfox pico pro max and ultra W</small>
-
 - Next make sure you download the RK DriverAssitant and SocToolKit flashing tool.
 
 - Install the RK Driver and Extract the SocToolKit.
@@ -65,7 +60,7 @@
 
 For the board configuration, refer to the repository: https://github.com/0x1iii1ii/PPPwn-Luckfox. Note that when using this board, ethernet pins 4, 5, 7, and 8 need to be connected to GND for the router to recognize it, as seen in issue https://github.com/0x1iii1ii/PPPwn-Luckfox/issues/7
 
-Regarding the ethernet connection, the creator apologizes for not being able to maintain the color coding in the photos, He didn't have enough cables. For the PPPoE connection used by the PPPwn exploit, only 10/100 ethernet is needed, so 4 wires are sufficient. This diagram shows the pins we need
+Regarding the Ethernet connection, the example images show different wiring colors because the creator lacked the correct colored wires to demonstrate it properly. For the PPPoE connection used by the PPPwn exploit, only 10/100 ethernet is needed, so 4 wires are sufficient. This diagram shows the pins we need
 
 <img src="/ethernet.png" width="75%">
 

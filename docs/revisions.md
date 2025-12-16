@@ -5,7 +5,7 @@
 ## Revisions
 
 The PS4 family of consoles has had 3 revsions in total:
-### Fat/Fat
+### Fat
 - CUH-1000, CUH-1100 and CUH-1200 series
 <img src="/fat.png" width="50%">
 

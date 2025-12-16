@@ -96,11 +96,4 @@ In order to do that, open up your FTP file manager of choice.
 - Filezilla
 
 #### MacOS
-- Probably Filezilla
-
-### Necessary files
-In the next step, you'll need to download the following:
-- bzImage (the kernel)
-- initramfs.cpio.gz (the rescueshell/terminal before the main distro)
-- A distro of your choice, already preinstalled and modified to work on the PS4
-	- You can also make your own. More on that later.
+- Filezilla

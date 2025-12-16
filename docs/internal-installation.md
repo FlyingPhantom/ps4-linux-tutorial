@@ -7,17 +7,6 @@ next:
   link: '/ending'
 ---
 
-# Internal HDD installation
-Here you'll setup the internal HDD for installation of a Linux distro.
-
-> [!CAUTION]
-> Make sure you are NOT following this on a console with a Baikal southbridge.
-> 
-> If you proceed, either it won't boot, or you'll inevitably corrupt your whole drive and loose all your data!
-
-> [!WARNING]
-> This shit is slow. Be careful and prepare your balls for imminent explosion.
-
 
 ## Internal HDD setup
 Check your PS4 storage, as you'll need to choose the size of the installation. Leave some free space in your console - remember that the PS4 doesn't report the space taken internally by Linux.
