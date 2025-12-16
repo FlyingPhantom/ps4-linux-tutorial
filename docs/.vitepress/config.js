@@ -92,7 +92,7 @@ export default defineConfig({
           { text: '🚀 Performance tweaks & optimization', link: '/miscellaneous/performance' },
           { text: '🔧 Compile your own kernel',           link: '/miscellaneous/kernel' },
           { text: '🎮 Emulation on PS4 Linux',            link: '/miscellaneous/emulation' },
-          { text: '⚡ PS4 Linux Benchmarks',              link: '/miscellaneous/benchmark' },
+          { text: '⚡ PS4 Benchmarks',              link: '/miscellaneous/benchmark' },
           { text: '🖥️ Mesa drivers & tweaks',             link: '/miscellaneous/mesa' },
           { text: '📡 Exploit Host Setup',                link: '/miscellaneous/exploit-host' }
         ]

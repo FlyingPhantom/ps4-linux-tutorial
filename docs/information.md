@@ -13,11 +13,11 @@ TLDR: yes it is reversible, and no you won't loose any data.
 :::
 
 ::: details What consoles are compatible?
-All consoles that can run a homebrew enabler (like GoldHEN or ps4hen) are able to run Linux.
+All consoles that can run a homebrew enabler (like GoldHEN or ps4hen) are able to run Linux. But how you run Linux is also dependent on your southbridge which will be covered in later sections.
 
 At the time of writing, the newest compatible firmware is 12.52.
 
-However, every console has a different southbridge, and Baikal in particular has many issues. You should be able to get a working installation either way.
+You should be able to get a working installation either way regardless of your southbridge.
 :::
 
 ## Video guide (optional)

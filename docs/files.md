@@ -29,15 +29,18 @@ These are normal linux kernels with additional patches to make them work properl
 | [6.15.x](https://github.com/feeRnt/ps4-linux-12xx/releases)<br>[5.15.x](https://github.com/feeRnt/ps4-linux-12xx/releases)<br>[5.4.x](https://github.com/feeRnt/ps4-linux-12xx/releases) | [GitHub](https://github.com/feeRnt/ps4-linux-12xx)  | All                        | Check Actions section if the releases don't work    |
 | 6.x<br>5.x<br>4.x                                                                                                                                                                        | [tux4orbis' Discord](https://discord.gg/s6DMgxxqQb) | All (Baikal in particular) | These kernels are in beta<br>Recommended for Baikal |
 
-### "Performance patched" kernels
+### Performance orianted kernels
 These kernels are compiled using additional optimizations. Some of them use LTO, some also add CachyOS's patches, and some others also add ZRAM or additional features.
 
-Don't expect a 3x improvement in performance, they just add features and make the system a bit more responsive.
+Don't expect a 3x improvement in performance, they just add features and make the system more responsive and generally perform bettter.
+
+> [!NOTE]
+> 120Hz only applies to 1080p resolution as of now.
 
 | Kernel                                                                     | Source                   | Compatible Southbridges | Extra info                                                                                                  |
 | -------------------------------------------------------------------------- | ------------------------ | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
 | [5.x and 6.15](https://www.youtube.com/watch?v=zVzHzJT7dHk) by saya        | feeRnt's and crashniels' | All                     | FullLTO, 120Hz support, 4K for PS4 Pro. You need to download the whole archive and pick one for your needs. |
-| [6.15.4](https://mega.nz/folder/N0QjHSBT#609IHevkWEW0vnTCFW-Rhw) by triki1 | feeRnt's and crashniels' | Aeolia<br>Belize        | ZRAM, CachyOS patches, KVM and more                                                                         |
+| [6.15.4](https://mega.nz/folder/N0QjHSBT#609IHevkWEW0vnTCFW-Rhw) by triki1 | feeRnt's and crashniels' | Aeolia<br>Belize        | ZRAM, CachyOS patches, KVM, 120Hz and more                                                                         |
 
 
 ### Specific kernel problems
@@ -50,7 +53,7 @@ If you really want to try other and older kernels, even though it's highly disco
 If you want more kernels or help, ask out the [Discord servers](/revisions#important-places).
 
 ## Initramfs
-This is the rescue shell that boots your Linux installer/installation. I'll be using one only, and it's going to be the one that was originally created for PSXITARCH, a distro based on Arch made by the PS3ITA Forums. [Here it is](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/initramfs.zip). [Source (not really)](https://bitbucket.org/piotrkarbowski/better-initramfs/src/master/).
+This is the rescue shell that boots your Linux installation and allows you to install linux in the first place if not installed already. I'll be using one only, and it's going to be the one that was originally created for PSXITARCH, a distro based on Arch made by the PS3ITA Forums. [Here it is](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/initramfs.zip). [Source (not really)](https://bitbucket.org/piotrkarbowski/better-initramfs/src/master/).
 
 There's another in-dev initramfs, if you want to check it out it's [here](https://github.com/ps4gentoo/initramfs).
 
@@ -76,4 +79,4 @@ There's many distros, most however, are very outdated, especially the ones on th
 >[!TIP]
 >Want to add more distros? Make an issue on github.
 >
->Want to make your own? [Check this out!](/postinstallation/distro)
+>Want to make your own? [Check this section.](/postinstallation/distro)

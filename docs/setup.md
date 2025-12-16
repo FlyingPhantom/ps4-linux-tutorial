@@ -3,7 +3,7 @@ In order to install Linux on the PS4, a lot of things are needed. You may have t
 ## Requirements
 
 You'll need:
-- Extra mouse and keyboard
+- Preferably a extra mouse and keyboard but the main ones you use are fine as well-
 - A USB hub to connect all the peripherals is recommended
 - A computer
 - An internet connection
