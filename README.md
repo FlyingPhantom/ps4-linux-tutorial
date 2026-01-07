@@ -9,6 +9,6 @@ To build the repo, clone the repo, then inside said repo, run the commands you f
 
 # Goals for future.
 
-- [ ] Be the best wiki.
+- [x] Be the best wiki.
 - [ ] Have a **Optional** AI assistent for help.
 - [ ] Add more usefull sections.
