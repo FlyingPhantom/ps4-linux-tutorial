@@ -11,7 +11,7 @@ next:
 ## Internal HDD setup
 Check your PS4 storage, as you'll need to choose the size of the installation. Leave some free space in your console - remember that the PS4 doesn't report the space taken internally by Linux.
 
-Type 1 payloads: FTP to your PS4. Go to the `/user/system` folder, and create the folder `boot/` and place your bzImage (and bootargs.txt if you have it, currently not suggested with the modded warefare initramfs because it causes display to not to work fix hasn't been tested yet) and initramfs in there along side your distro.
+Type 1 payloads: FTP to your PS4. Go to the `/user/system` folder, and create the folder `boot/` and place your bzImage (and bootargs.txt if you have it; this is currently not suggested with the Modded Warfare initramfs as it causes display issues, and a fix hasn't been tested yet) and initramfs in there alongside your distro.
 Type 2 payloads: FTP to your PS4. Go to the `/data` folder, and create folder called `linux` and then `boot` and place your files there.
 
 <img src="/screenshots/internal-drive-conf.png" width="50%">

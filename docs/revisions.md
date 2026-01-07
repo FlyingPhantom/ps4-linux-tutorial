@@ -4,7 +4,7 @@
 > Take notes and remember all you see in this page, as it will interest you during your installation.
 ## Revisions
 
-The PS4 family of consoles has had 3 revsions in total:
+The PS4 family of consoles has had 3 revisions in total:
 ### Fat
 - CUH-1000, CUH-1100 and CUH-1200 series
 <img src="/fat.png" width="50%">
@@ -27,10 +27,9 @@ It's only present on early Fat models.
 ### Belize
 The second gen Southbridge, and the one with the most support. Gets kernel updates faster and doesn't have any particular problems.
 
-It can be found on late Fat models, but also on Slims and Pros.
-
+It can be found on late Fat models, but also on Slim and Pro models.
 ### Baikal
-The third and final Southbridge, released very late into the console's lifespan, and the one with the most broken support. It does not have supprot for internal HDD installation, and is known to have issues with wifi and bluetooth especially on PS4 Pros, but you can get a working system now days as most of the drivers for Baikal have been added to the kernel source..
+The third and final Southbridge, released very late into the console's lifespan, and the one with the most broken support. It does not have support for internal HDD installation, and is known to have issues with wifi and bluetooth especially on PS4 Pros, but you can get a working system nowadays as most of the drivers for Baikal have been added to the kernel source.
 
 > [!TIP]
 > In a nutshell, the list from most to least supported is:

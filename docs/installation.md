@@ -17,7 +17,7 @@ next:
 As I've mentioned beforehand, you can't install Linux on the internal PS4's HDD on Baikal systems. Buy an SSD and an adapter.
 To give you an explanation, it took me 30 minutes to update my CachyOS installation (1500MBs) and the system was extremely unresponsive.
 
-Using an external SATA-USB adapter with a Samsung 870 EVO 500GB, the time it took shrinked to less than 5 minutes.
+Using an external SATA-USB adapter with a Samsung 870 EVO 500GB, the time it took shrank to less than 5 minutes.
 
 Therefore, let's clear some misinformation here:
 - The PS4's internal HDD is a repurposed laptop 5400RPM drive. Preferably don't use this - even the PS4's own menus lag because of how slow it is.
@@ -34,7 +34,7 @@ Again, internal SSD swap hasn't been tested, so your mileage may vary if you wan
 2. Take the initramfs.zip file, open it, and choose your installation method (mind the Southbridge)
 	- Put it somewhere like on your desktop as we'll need it
 3. Choose your kernel of choice
-4. Choose your distro and and rename it `psxitarch.tar.xz/gz` depending on the original file type
+4. Choose your distro and rename it `psxitarch.tar.xz/gz` depending on the original file type
 
 ## Choosing a method of installation 
 > [!WARNING]

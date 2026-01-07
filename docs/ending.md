@@ -1,5 +1,5 @@
 # Finishing up
-Enjoy Linux on your PS4 - please share this guide if it was helpful! For any questions on this guide, make an issue, with general Linux issues use the links provided at the start of the guide to get to the PS4Linux Forums.
+Enjoy Linux on your PS4 - please share this guide if it was helpful! For any questions on this guide, make an issue. For general Linux issues, use the links provided at the start of the guide to get to the PS4Linux Forums.
 
 > [!TIP]
 > I highly recommend continuing to the ["Post Installation" setup](/postinstallation/postinstall) to begin configuring your system
@@ -28,7 +28,7 @@ If you want, you can check out their repos:
 - [rancido (psxitateam)](https://github.com/Ps3itaTeam/ps4-linux/)
 	- Made the AMDGPU driver work.
 - [eeply](https://github.com/eeply/ps4-linux)
-	- Brought PS4 Pro to work for video output, in fact now all ps4 with new Panasonic HDMI chip work.
+	- Brought PS4 Pro to work for video output, in fact now all PS4s with new Panasonic HDMI chip work.
 - valeryy (no GitHub, gave the code to rancido)
 	- Brought the Baikal Southbridge support.
 - [tihmstar](https://github.com/tihmstar/ps4-linux)

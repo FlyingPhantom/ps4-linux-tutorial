@@ -3,12 +3,12 @@ In order to install Linux on the PS4, a lot of things are needed. You may have t
 ## Requirements
 
 You'll need:
-- Preferably a extra mouse and keyboard but the main ones you use are fine as well-
+- Preferably an extra mouse and keyboard, but the main ones you use are fine as well
 - A USB hub to connect all the peripherals is recommended
 - A computer
 - An internet connection
 - (Optional) - one or more USB drives
-	- If you want to install to an external drive, you can use a USB pendrive or HDD, but it's recommend to have a SATA SSD and a SATA to USB adapter (preferrably one that supports UAS).
+	- If you want to install to an external drive, you can use a USB pendrive or HDD, but it's recommend to have a SATA SSD and a SATA to USB adapter (preferably one that supports UAS).
 
 ## Storage devices to install to
 Before starting, you need to choose method of installation.
@@ -35,7 +35,7 @@ In the example case, the latest version of GoldHEN is used (minimum for this gui
 You need a system that is already jailbroken and has a homebrew enabler (such as GoldHEN or ps4hen) running.
 
 > [!TIP]
-> To jailbreak your PS4, you need firmware 12.52 or lower.(In future likely 13.02 or less)
+> To jailbreak your PS4, you need firmware 12.52 or lower (In the future likely 13.02 or less)
 > 
 > Refer to [Modded Warfare](https://www.youtube.com/@MODDEDWARFARE) on YouTube if you haven't already.
 
@@ -74,19 +74,19 @@ However, as some issues may arise on certain consoles, you should still go and t
 <img src="/screenshots/hdcp-and-device-link.png" width="75%">
 
 - Check your internet connection
-	- Some models have issues if they aren't already connected to internet.
+	- Some models have issues if they aren't already connected to the internet.
 	- Ethernet may not work on PS4 Pro Baikal
 
 ## PC
 A way to connect to your PS4 to transfer files is needed. A PC is recommended. You will also need an internet connection.
 
-You'll be accessing your PS4's filesystem from FTP. You can also transfer files with a USB drive if you feel so inclined.
+You'll be accessing your PS4's filesystem via FTP. You can also transfer files with a USB drive if you feel so inclined.
 
 ### FTP connections
 In order to do that, open up your FTP file manager of choice.
 
 #### Windows
-- Windows' built-in file manager
+- The built-in Windows File Explorer
 	- This one likes to crash the desktop if it can't connect, be careful
 - WinSCP (recommended, using the simple interface)
 - Filezilla

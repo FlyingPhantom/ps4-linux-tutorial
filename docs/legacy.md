@@ -1,5 +1,5 @@
 # Legacy content
-This page contains content that has been added for preservation's sake, even though most of you aren't ever going to use any of this stuff.
+This page contains content that has been added for preservation's sake, even though most of you are unlikely to use this material.
 
 > [!WARNING]
 > As this is legacy content, if you use any of these don't expect people to be able to help you.
@@ -45,7 +45,7 @@ Honestly, it's all on the same page as above. [Here you go](https://ps4linux.com
 More stuff may be moved to here in the future.
 
 ### VRAM configs
-The `vram.txt` is a file contaning a number, which is your VRAM allocation amount.
+The `vram.txt` is a file containing a number, which is your VRAM allocation amount.
 You may still be able to use this, but to avoid confusion, it has been moved to the legacy section, as you can just as easily reboot the console and change the payload.
 
 You can create this file yourself. Create an empty text file called `vram.txt`, and in it, input a number between 1 and 3. That's how many GBs will be allocated to your GPU. Remember you are removing that from your system memory!
