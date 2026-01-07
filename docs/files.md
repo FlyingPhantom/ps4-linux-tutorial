@@ -21,7 +21,7 @@ For Baikal, yes indeed. Modern versions of Mesa require modern versions of LibDR
 But apart from that, not really. New features are mostly added for newer processors and devices, though there are cool things like better performance on specific scenarios and native drivers for things like PS4's controllers, but as long as you have a 5.x+ kernel your experience should be mostly the same, as those support Vulkan.
 :::
 ### Vanilla kernels
-These are normal linux kernels with additional patches to make them work properly on the PS4. 
+These are normal Linux kernels with additional patches to make them work properly on the PS4. 
 
 | Kernel                                                                                                                                                                                   | Source and Download                                 | Compatible Southbridges    | Extra info                                          |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | -------------------------- | --------------------------------------------------- |
@@ -29,10 +29,10 @@ These are normal linux kernels with additional patches to make them work properl
 | [6.15.x](https://github.com/feeRnt/ps4-linux-12xx/releases)<br>[5.15.x](https://github.com/feeRnt/ps4-linux-12xx/releases)<br>[5.4.x](https://github.com/feeRnt/ps4-linux-12xx/releases) | [GitHub](https://github.com/feeRnt/ps4-linux-12xx)  | All                        | Check Actions section if the releases don't work    |
 | 6.x<br>5.x<br>4.x                                                                                                                                                                        | [tux4orbis' Discord](https://discord.gg/s6DMgxxqQb) | All (Baikal in particular) | These kernels are in beta<br>Recommended for Baikal |
 
-### Performance orianted kernels
+### Performance oriented kernels
 These kernels are compiled using additional optimizations. Some of them use LTO, some also add CachyOS's patches, and some others also add ZRAM or additional features.
 
-Don't expect a 3x improvement in performance, they just add features and make the system more responsive and generally perform bettter.
+Don't expect a 3x improvement in performance, they just add features and make the system more responsive and generally perform better.
 
 > [!NOTE]
 > 120Hz only applies to 1080p resolution as of now.
@@ -53,10 +53,10 @@ If you really want to try other and older kernels, even though it's highly disco
 If you want more kernels or help, ask out the [Discord servers](/information#important-places).
 
 ## Initramfs
-This is the rescue shell that boots your Linux installation and allows you to install linux in the first place if not installed already. I'll be using one only, and it's going to be the one that was originally created for PSXITARCH, a distro based on Arch made by the PS3ITA Forums. [Here it is](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/initramfs.zip). [Source (not really)](https://bitbucket.org/piotrkarbowski/better-initramfs/src/master/).
+This is the rescue shell that boots your Linux installation and allows you to install Linux in the first place if not installed already. I'll be using one only, and it's going to be the one that was originally created for PSXITARCH, a distro based on Arch made by the PS3ITA Forums. [Here it is](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/initramfs.zip). [Source (not really)](https://bitbucket.org/piotrkarbowski/better-initramfs/src/master/).
 
 ## Payloads
-None of this is possible without neccesery payloads to install linux get your payloads [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/ps4-linux-payloads.zip). The reason why we need "*non-official*" payloads is because the normal payloads have been splitting the distro and bzImage,initramfs directory without any proper reason which overcomplicates things when trying to help people find issues.
+None of this is possible without necesery payloads to install Linux get your payloads [here](https://github.com/FlyingPhantom/ps4-linux-tutorial/blob/main/PS4%20Linux/ps4-linux-payloads.zip). The reason why we need "*non-official*" payloads is because the normal payloads have been splitting the distro and bzImage,initramfs directory without any proper reason, which overcomplicates things when trying to help people find issues.
 
 ## Distros
 There's many distros, most however, are very outdated, especially the ones on the PS4Linux's website list. These distros are newer, supported by updates and recommended. CachyOS was used for this guide, but you can follow the same method of installation for all the other ones reported here.
@@ -73,7 +73,7 @@ There's many distros, most however, are very outdated, especially the ones on th
 | [Xubuntu](https://ps4linux.com/forums/d/337-xubuntu-2504-final-release)                          | Ubuntu  | [triki1](https://www.youtube.com/@trakerchris9876)                        | Divided into multiple files                                                         |
 | [Batocera 40](https://ps4linux.com/forums/d/252-batocera-40-for-ps4-installation-setup-tutorial) | Unknown | [Noob404](https://www.youtube.com/channel/UC9pY5BDCjDLOC4j-zkHPu8)        | For retrogaming                                                                     |
 | [JaguarLinux](https://ps4linux.com/forums/d/265-jaguarlinux-a-ps4-linux-only-distro-beta-release/3)                                                    | None    | TigerClips1                                                               | A distro made from scratch for the PS4! Still in development, but worth mentioning. |
-| [Clean Archlinux with kde ](https://github.com/ErkkolaMaitohappo/arch-ps4-aur-smth-fork/releases/tag/v1.1%2Bkde)| Arch | [ErkkolaMaitohappo](https://github.com/ErkkolaMaitohappo)
+| [Clean Archlinux with KDE](https://github.com/ErkkolaMaitohappo/arch-ps4-aur-smth-fork/releases/tag/v1.1%2Bkde)| Arch | [ErkkolaMaitohappo](https://github.com/ErkkolaMaitohappo)
 
 >[!TIP]
 >Want to add more distros? Make an issue on github.

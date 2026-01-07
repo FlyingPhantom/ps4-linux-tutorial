@@ -17,7 +17,7 @@ This method involves manual partitioning. It's slower to do, but works flawlessl
 
 Get a Linux PC or VM (even a Live ISO works), or any program that can format drives in Linux's formats.
 
-Then, plug in your drive, and use "GParted", "KDE Partition Manager", or "Aoemi Partition Assistant" on Windows to format your external drive like so:
+Then, plug in your drive, and use "GParted", "KDE Partition Manager", or "AOMEI Partition Assistant" on Windows to format your external drive like so:
 - 50MB of FAT32 at the start of the drive <u>with an empty label</u>
 - And a partition of the remaining space formatted as EXT4 <u>labeled "psxitarch"</u>
 	- BTRFS works too, but EXT4 is faster and recommended

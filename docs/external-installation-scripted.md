@@ -16,12 +16,12 @@ next:
 > [!TIP]
 > If you have issues or just want to do manual partitioning (which often works better) try the [alternative installation here](external-installation-manual.md).
 ## Installation scripts
-Put the kernel (bzImage, and the bootargs if you need it), initramfs (initramfs.cpio.gz), and your distro `psxitarch.tar.xz/gz` on the root of a FAT32 formatted drive, like so:
+Put the kernel (bzImage, and the bootargs if you need them), initramfs (initramfs.cpio.gz), and your distro `psxitarch.tar.xz/gz` in the root of a FAT32 formatted drive, like so:
 
 <img src="/screenshots/external-drive-conf.png" width="75%">
 
 ### Manual format for big drives
-If the drive is larger than 32GB, Windows will dastardly act like it can't format it in FAT32, but only in NTFS or ExFAT, which is just wrong, as FAT32 supports up to 2TB drives.
+If the drive is larger than 32GB, Windows may incorrectly report that it can't format it in FAT32, but only in NTFS or ExFAT, which is just wrong, as FAT32 supports up to 2TB drives.
 To fix it, go ahead and download the mythical [Rufus](https://rufus.ie) program.
 
 - Select "List USB Hard Drives"
@@ -55,5 +55,3 @@ resume-boot
 ```
 
 <!--@include: ./_includes/resume-boot-warning.md-->
-## Finale
-Go now, conquer the finale. Also, read the post-credit stuff.

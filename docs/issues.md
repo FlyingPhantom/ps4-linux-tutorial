@@ -1,8 +1,8 @@
 # Installation issues
-During the installation, things can fail. Most of this stuff is undocumented too. There's dozens of posts online where people don't even get a response. We will hopefully fix these problems. If not, write on the forums or on the PS4 Linux Discord.
+During the installation, things can fail. Most of this stuff is undocumented too. There's dozens of posts online where people don't even get a response. We will hopefully fix these problems. If not, post on the forums or on the PS4 Linux Discord.
 
 ::: details Root error `The "root" variable is empty, set to false or zero but shouldn't be`
-It shows when booting up before installing, don't worry as it's normal because there is no installed system it can boot. You can proceed with the installation.
+It shows when booting up before installing, don't worry, as it's normal because there is no installed system it can boot. You can proceed with the installation.
 :::
 
 ::: details Newroot error - `mount -o ro /newroot failed`
@@ -15,9 +15,9 @@ If this happens, there are three possible causes:
 
 ::: details Mounting error - `No valid USB device found`
 If the installer can't find the USB device, you have two options:
-1. Try to disconnect everything, and connect the drive first. If that doesn't work, try to reboot but only with the drive connected, only when you get to the rescue shell connect a keyboard and a mouse.
+1. Try to disconnect everything, and connect the drive first. If that doesn’t work, try rebooting with only the drive connected. Connect a keyboard and mouse only once you reach the rescue shell.
 2. If that other method didn't work, you can try to scan for USB storage devices with `fdisk -l` or `lsblk`. It should show all the storage devices.
-	- If it shows with the commands, but the installer fails to find it, it's probably because the drive (or adapter if you are using one) doesn't support UAS, which is required in newer kernels. In that case, use the [Method 2](installation.md#method-2-manual-partitioning) described.
+	- If it shows with the commands, but the installer fails to find it, it's probably because the drive (or adapter, if you are using one) doesn't support UAS, which is required in newer kernels. In that case, use the [Method 2](installation.md#method-2-manual-partitioning) described.
 	- Also, don't use USB hubs, the drive may not show up.
 
 :::
@@ -33,9 +33,9 @@ Also, remember that the PS4 on Linux doesn't support monitor hot-plugging, so th
 
 If that doesn't fix it, you can read the following bible.
 ### Gray screen
-If you see a gray screen and/or loose signal right AFTER seeing the login screen, then you may need to use the bootargs.txt or change kernel.
+If you see a gray screen and/or lose signal right AFTER seeing the login screen, then you may need to use the bootargs.txt or change kernel.
 
-Instead, if you loose signal or get an "unsupported resolution" error from your TV/monitor right after booting or BEFORE seeing the login screen, then you must change to a different kernel, as some kernels try to run the PS4 in 120hz mode (no, it doesn't show anything on a high refresh-rate capable display).
+Instead, if you lose signal or get an "unsupported resolution" error from your TV/monitor right after booting or BEFORE seeing the login screen, then you must change to a different kernel, as some kernels try to run the PS4 in 120hz mode (no, it doesn't show anything on a high refresh-rate capable display).
 
 Thanks to mircoho and saya for helping out in clarifying these problems.
 ### Other possible fixes
@@ -55,7 +55,7 @@ However, if it keeps happening, and the console gets stuck on a white LED instea
 :::
 
 ::: details Wi-Fi and/or Bluetooth don't work (MediaTek modem)
-If they don't work, it's because your console is using a Wi-Fi or Bluetooth chip that is made by MediaTek, and unfortunately you will need to find a kernel that includes the fixes for that specific chip. MediaTek does not make open source drivers, so that's the reason it doesn't work normally.
+If they don't work, it's because your console is using a Wi-Fi or Bluetooth chip that is made by MediaTek, and unfortunately you will need to find a kernel that includes fixes for that specific chip. MediaTek does not make open source drivers, so that's the reason it doesn't work normally.
 
 Try feeRnt's kernels, hopefully one of them will work for you.
 :::
@@ -64,7 +64,7 @@ Try feeRnt's kernels, hopefully one of them will work for you.
 Sometimes you can encounter graphical issues. There are some things you can try to fix that.
 
 To solve Vulkan graphical issues you can:
-- Set `RADV_DEBUG=nocompute` in `/etc/environment` (use nano or similar)
+- Set `RADV_DEBUG=nocompute` in `/etc/environment` (using nano or a similar editor)
 - Try `amdgpu.abmlevel=0` with bootargs
 - Use WineD3D (terrible performance)
 
@@ -81,12 +81,12 @@ I mean it was kind of expected. How else are you gonna go back to the main menu?
 
 # Other issues
 ::: details The scene is a complete mess
-In a nutshell, the scene is a mess and a lot of stuff may be shared privately or on Discord servers because:
+In a nutshell, the scene is a mess, and a lot of stuff may be shared privately or on Discord servers because:
 - It's in testing phase and therefore not public yet
 - It's not open sourced because there's a lot of people who steal the developer's work
 - A lot of this stuff is from developers all across the world and there's a language barrier
 
-Especially the second reason is why the community is like this, unfortunately.
+The second reason, especially, is why the community is like this, unfortunately.
 
 It will take time, I'm grateful for all the help from everyone in the community, and I'm also hopefully making the scene a little bit better and one day we'll all have stuff uploaded in proper places
 :::

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "PS4 Linux Tutorial, Based on Dionkill's tutorial but covers wider range of topics."
+  name: "PS4 Linux Tutorial, based on Dionkill's tutorial, covering a wider range of topics."
   text: "A simple guide for PS4"
   tagline: "by FlyingPhantom"
   image:
@@ -38,10 +38,10 @@ features:
     details: This guide will walk you through every step of the way and will explain to you not just how to install, but also to setup Linux in general, how to maintain it very easily and make it a usable everyday OS- because why not.
   - icon: 📖
     title: A comprehensive guide
-    details: The other online guides keep on missing the point. A lot of them either lack information, or are simply bad documented. This guide is made from the ground up by pure rage because nobody has one that details everything.
+    details: The other online guides keep on missing the point. A lot of them either lack information, or are simply bad documented. This guide is made from the ground up by pure rage because no other guide details everything.
 ---
 ## Before we start
-Here are some questions you probably want to know the answer to if you are a novice on this stuff.
+Here are some questions you probably want to know the answer to if you are a novice regarding these topics.
 
 ::: details What is Linux?
 Linux is a kernel, though nowadays many refer to it as the whole fleet of operating systems using it. In layman's terms, think of it as the core of the OS. Installing Linux refers to installing a Linux distribution to use on your PS4 so that you can turn it into something like a desktop computer.
@@ -50,10 +50,10 @@ Linux is a kernel, though nowadays many refer to it as the whole fleet of operat
 ::: details Is it reversible? Will it delete all my games and saves?
 All your data will stay intact. Whether you install it on the internal HDD or an external drive, you will keep your data as you first need to exploit your console at every boot.
 
-The internal drive method actually creates a file as big as you want it to be which is going to be mounted whenever you launch Linux as it's own virtual hard disk, so it won't overwrite any data you have on your console.
+The internal drive method actually creates a file as big as you want it to be which is going to be mounted whenever you launch Linux as it's own virtual hard disk, so it won't overwrite any data currently on your console.
 For the external drive method your HDD isn't even touched at all.
 
-TLDR: yes it is reversible, and no you won't loose any data.
+TL;DR: yes it is reversible, and no you won't lose any data.
 :::
 
 ::: details What are the PS4's specifications?
@@ -65,12 +65,12 @@ TLDR: yes it is reversible, and no you won't loose any data.
 		- Performance is comparable to an AMD HD 7850 or a Nvdia GTX 750 Ti on the Fat/Slim
 		- For the Pro, we don't really know. Roughly a GTX 1060
 - 8GB of GDDR5 memory
-  - Note the G, stands for Graphics. This isn't DDR5 as it wasn't invented in 2013. DDR3 was the only one available.
+  - Note the 'G' stands for Graphics. This isn't DDR5 as it wasn't invented in 2013. DDR3 was the only one available.
   - Additional 256MB DDR3 for "Background applications" on Fat/Slim, or 1GB DDR3 on Pro
 :::
 
 ::: details What do these specs mean in practice?
-Back in 2013 AMD was nearly about to collapse, because their processors were terrible. It was saved by the PS4's success.
+Back in 2013, AMD was nearly about to collapse, because their processors were terrible. It was saved by the PS4's success.
 
 This means that not only was the PS4 lacking a lot of CPU performance at launch, but it is also using GDDR5 memory, of which there's only 8GBs of. GDDR5 is not meant to do anything other than graphic workloads, so while it has a lot of bandwidth (it can move a lot of data at once) it has very high latency (getting to the location in memory takes a long time).
 :::
@@ -81,4 +81,4 @@ Another thing. We have two methods of installation:
 1. Internal HDD of the PS4
 2. External Drive via USB
 
-But some consoles don't support internal drives. This will addressed further into the guide.
+But some consoles don't support internal drives. This will be addressed further in the guide.
