@@ -75,7 +75,6 @@ There's many distros, most however, are very outdated, especially the ones on th
 | [JaguarLinux](https://ps4linux.com/forums/d/265-jaguarlinux-a-ps4-linux-only-distro-beta-release/3)                                                    | None    | TigerClips1                                                               | A distro made from scratch for the PS4! Still in development, but worth mentioning. |
 | [Clean Archlinux with kde ](https://github.com/ErkkolaMaitohappo/arch-ps4-aur-smth-fork/releases/tag/v1.1%2Bkde)| Arch | [ErkkolaMaitohappo](https://github.com/ErkkolaMaitohappo)     | arch for ps4 but with kde plasma, sddm, firefox, dolphin filebrowser, pipewire and bluetooth. |
 | [Clean Archlinux with xfce4 ](https://github.com/ErkkolaMaitohappo/arch-ps4-aur-smth-fork/releases/tag/v1%2Bxfce4)| Arch | [ErkkolaMaitohappo](https://github.com/ErkkolaMaitohappo)     | arch for ps4 but with xfce4, xfce4-goodies, sddm, firefox, pipewire and bluetooth. |
-| [Clean Archlinux with KDE](https://github.com/ErkkolaMaitohappo/arch-ps4-aur-smth-fork/releases/tag/v1.1%2Bkde)| Arch | [ErkkolaMaitohappo](https://github.com/ErkkolaMaitohappo)
 
 >[!TIP]
 >Want to add more distros? Make an issue on github.
