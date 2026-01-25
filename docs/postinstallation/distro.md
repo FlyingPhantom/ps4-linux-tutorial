@@ -24,7 +24,7 @@ To get the drivers, there's a couple of ways:
 ```bash
 [ps4-video]
 SigLevel = Optional
-Server = https://centi07.github.io/repo/
+Server = https://github.com/DionKill/ps4-video-archlinux/repo
 ```
 Otherwise, the drivers are available from the AUR via the video-drivers-ps4 package. However, installation may fail. If that happens, check the Tux4Orbis Discord for help.
 
